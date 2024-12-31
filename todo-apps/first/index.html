@@ -6,6 +6,48 @@
     <title>Document</title>
 </head>
 <body>
+    <img src="assets/Bitmap.png" alt="">
+    <div class="main">
+        <header>
+            <img src="assets/light.svg" alt="">
+            <div class="theme-switch">
+                <img src="assets/light.svg" alt="">
+                <img src="assets/moon.svg" alt="">
+            </div>
+        </header>
+        <main>
+            <div class="new">
+                <input type="checkbox" name="check" id="check">
+                <input type="text" name="todo" id="todo">
+            </div>
+            <div class="todos">
+                <div class="todo todo1">
+                    <div class="task">
+                        <input type="checkbox" name="check" id="check1">
+                        <input type="text" name="todo1" id="todo1">
+                    </div>
+                    <img src="assets/x-mark.png" alt="">
+                </div>
+            </div>
+            <div class="deets">
+                <div class="count">
+                    <span>1</span>
+                    <p>items left</p>
+                </div>
+                <div class="status">
+                    <span id="all">All</span>
+                    <span id="active">Active</span>
+                    <span id="completed">Completed</span>
+                </div>
+                <span id="clear">Clear Completed</span>
+            </div>
+        </main>
+        <footer>
+            <p>Drag and drop to reorder list</p>
+        </footer>
+    </div>
+
     
+    <script src='script.js'></script>
 </body>
 </html>
